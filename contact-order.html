@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ellie's Little Sweets, located in Schaumburg, IL, serving you fresh cakes, cookies, pastries and much more">    
+    <meta name="keywords" content="Bakery, Schaumburg, Ellie, Sweets, Contact-Us">
+    <link rel="stylesheet" type="text/css" href="css/contact.css" />
+    <title>E.L.S. Contact Us</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header class="header">
+        <img class="case" src="images/case2.svg" alt="display" />
+        <img class="logo" src="images/logo2.svg" alt="logo" />
+      </header>
+      <h1>Ellie's <span>Little</span> Sweets</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Homepage</a></li>
+          <li><a href="cakes.html">Cakes</a></li>
+          <li><a href="baked-goods.html">Baked Goods</a></li>
+          <li><a href="contact-order.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <!--
+    <nav><div class="nav">
+      <div><a href="index.html">Homepage</a></div>
+      <div><a href="cakes.html">Cakes</a></div>
+      <div><a href="baked-goods.html">Baked Goods</a></div>
+      <div><a href="contact-order.html">Contact-Us/Order</a></div>
+    </div>
+    </nav>-->
+      <main>
+          <div class="contact">
+            <div> 
+            <img src="images/muffin.jpg" alt="muffin" height="150">
+            <br>
+            <img src="images/baklava.jpg" alt="baklava" height="150">
+            </div>
+            <form action="process.php" method="post">
+              <h2>Contact Us</h2>
+              <div class="form">
+              <label for="fname">First Name:</label><br>
+              <input type="text" id="fname" placeholder="John" required ><br>
+              <label for="lname">Last Name:</label><br>
+              <input type="text" id="lname" placeholder="Smith" required><br>
+              <label for="phone">Enter Your Phone Number:</label><br>
+              <input type="tel" id="phone" placeholder="847-555-5555" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+              <label for="yourEmail">Email Address:</label><br>
+              <input type="email" id="yourEmail" placeholder="example@gmail.com" required><br>
+              <label for="reason">What Are You Inquiring About?</label><br>
+                <select name="reason" id="reason" required>
+                  <option value="">None</option>
+                  <option value="wedding">Wedding Cake</option>
+                  <option value="specialty">Specialty Cakes</option>
+                  <option value="specials">Specials</option>
+                  <option value="options">Individual Options</option>
+                  <option value="other">Other</option>
+                </select><br>
+              <label for="yourSubject">Subject:</label><br>
+              <input type="text" id="yourSubject" value=""><br>
+              <label>Your Message:</label><br>
+              <textarea id="yourMessage" name="yourMessage" rows="8" cols="50">
+              </textarea>
+              </div>
+              <br />
+              <input type="checkbox" id="submit" name="submit" value="">
+              <label for="submit"> Yes, please add my email address to the E.L.S. mailing list</label><br>
+              <div class="prefer">
+              <p class="span"><span class="preferred">Preferred contact?</span></p>
+              <input type="radio" id="phoneNumber" name="choice" required>
+              <label for="phoneNumber">Phone</label><br>
+              <input type="radio" id="email" name="choice">
+              <label for="email">Email</label><br>
+              <input type="radio" id="neither" name="choice">
+              <label for="neither">Neither</label><br>
+              </div>
+              <input type="submit" name="submit"><br>
+
+            </form>
+            <div>
+            <img src="images/oreo.jpg" alt="oreo cheesecake" height="150">
+            <br>
+            <img src="images/cookie.jpg" alt="cookies" height="150">
+            </div>
+          </div>
+          <div class="about">
+            <h2>About Us</h2>
+            <div class="about2">
+              <a href="./ellie.svg"><img alt="little Ellie" src="./ellie.svg" height="200"></a>
+              <p class="ellie">
+                As a young girl, I always had this fighting stubbornness to be
+                the best I could be. I struggled at the beginning but I knew
+                that with a little attitude, I could achieve whatever goals I
+                had, and my goal growing up was to work in the kitchen. I
+                thought I would be a Chef at a fancy restaurant somewhere in
+                Manhatten, but life has its own mind. So, I took a little detour
+                and opened up my first little bakery in Schaumburg.
+              </p>
+            </div>
+          </div>
+
+        <h3>Follow Us On:</h3>
+        <div class="icons">
+          <a href="https://www.youtube.com" target="_blank"><img alt="yt logo" src="icons/yt.svg"></a>
+          <a href="https://www.facebook.com" target="_blank"><img alt="fb logo" src="icons/fb.svg"></a>
+          <a href="https://www.instagram.com" target="_blank"><img alt="ig logo" src="icons/ig.svg"></a>
+          <a href="https://www.pinterest.com" target="_blank"><img alt="pt logo" src="icons/pinterest.svg"></a>
+          <a href="https://www.tiktok.com" target="_blank"><img alt="tt logo" src="icons/tt.svg"></a>
+          <a href="https://www.twitter.com" target="_blank"><img alt="twitter logo" src="icons/twitter.svg"></a>
+
+        </div>
+      </main>
+
+      <div class="footer">
+        <a class="f-link" href="https://www.indeed.com" target="_blank">Careers</a>
+        <a class="f-link" href="https://www.google.com/maps" target="_blank">Locations</a>
+        <a class="f-link" href="https://www.gmail.com" target="_blank">Email Signup</a>
+        <a class="f-link" href="https://www.yelp.com" target="_blank">Yelp</a>
+        <p class="copyright">© Dennis Garbis WEB-150 FALL 2020</p>
+      </div>
+    </div><!-- end of wrapper div-->
+    <p class="css">
+      <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <img style="border:0;width:88px;height:31px"
+              src="http://jigsaw.w3.org/css-validator/images/vcss"
+              alt="Valid CSS!" />
+      </a>
+    </p>
+  </body>
+</html>
