@@ -61,7 +61,7 @@ nav {
   position: sticky;
   top: 0;
 }
-/*.nav {
+.nav {
   display: flex;
   justify-content: center;
 }
@@ -80,7 +80,7 @@ nav {
   background-color: #f4e2e2;
   color: #643333;
   text-decoration: none;
-}*/
+}
 main {
   padding-top: 5%;
 }
